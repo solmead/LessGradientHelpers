@@ -1,0 +1,17 @@
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\WebHandlers.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\WebHandlers.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\WebHandlers.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\ConfigSettings.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\FileInfoExtensions.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\HttpObjectCaching.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\ConfigSettings.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\ConfigSettings.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\FileInfoExtensions.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\FileInfoExtensions.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Release\HttpObjectCaching.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Release\WebHandlers.Resources.resources
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Release\WebHandlers.vbproj.GenerateResource.Cache
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Release\WebHandlers.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Release\WebHandlers.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Release\WebHandlers.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Release\WebHandlers.vbprojResolveAssemblyReference.cache

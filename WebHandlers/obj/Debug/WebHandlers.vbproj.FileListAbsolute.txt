@@ -1,0 +1,16 @@
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\WebHandlers.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\WebHandlers.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\WebHandlers.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\ConfigSettings.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\FileInfoExtensions.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\HttpObjectCaching.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\ConfigSettings.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\ConfigSettings.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\FileInfoExtensions.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\FileInfoExtensions.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\bin\Debug\HttpObjectCaching.pdb
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.Resources.resources
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.vbproj.GenerateResource.Cache
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.dll
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.xml
+C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.pdb
