@@ -37,7 +37,7 @@ Public Class SVGGradientHandler : Implements IHttpHandler
             Dim stop3Color As String = Request("stop3Color")
 
             Dim stops As String = Request("stops")
-            Dim a = 1
+            'Dim a = 1
 
             Dim direction As String = Request("direction")
 
