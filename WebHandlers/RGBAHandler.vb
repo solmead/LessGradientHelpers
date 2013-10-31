@@ -129,29 +129,34 @@ rect, Color.Blue, Color.White, 90.0F)
 
 
     Public Sub ProcessRequest(ByVal context As HttpContext) Implements IHttpHandler.ProcessRequest
-        Dim Response = context.Response
-        Dim Request = context.Request
-        Dim Server = context.Server
+        Try
 
-        Dim fi As FileInfo = Nothing
-        If Not String.IsNullOrWhiteSpace(Request("R")) Then
-            fi = GetTransparencyImage(context)
-        Else
-            fi = GetGradientImage(context)
-        End If
+            Dim Response = context.Response
+            Dim Request = context.Request
+            Dim Server = context.Server
 
-        'Response.ContentType = "image/png"
-        'Response.Clear()
-        Response.AddHeader("Content-Type", "image/png")
-        Response.AddHeader("Content-Disposition", "attachment; filename=" & fi.Name & "; size=" & fi.Length.ToString())
-        context.Response.Cache.SetCacheability(HttpCacheability.Public)
-        context.Response.Cache.VaryByParams("*") = True
-        context.Response.Cache.SetAllowResponseInBrowserHistory(True)
-        context.Response.Cache.SetExpires(DateTime.Now.AddDays(30))
-        context.Response.Cache.SetMaxAge(New TimeSpan(30, 0, 0))
-        context.Response.Cache.SetLastModified(fi.LastWriteTime)
+            Dim fi As FileInfo = Nothing
+            If Not String.IsNullOrWhiteSpace(Request("R")) Then
+                fi = GetTransparencyImage(context)
+            Else
+                fi = GetGradientImage(context)
+            End If
 
-        Response.TransmitFile(fi.FullName)
+            'Response.ContentType = "image/png"
+            'Response.Clear()
+            Response.AddHeader("Content-Type", "image/png")
+            Response.AddHeader("Content-Disposition", "attachment; filename=" & fi.Name & "; size=" & fi.Length.ToString())
+            context.Response.Cache.SetCacheability(HttpCacheability.Public)
+            context.Response.Cache.VaryByParams("*") = True
+            context.Response.Cache.SetAllowResponseInBrowserHistory(True)
+            context.Response.Cache.SetExpires(DateTime.Now.AddDays(30))
+            context.Response.Cache.SetMaxAge(New TimeSpan(30, 0, 0))
+            context.Response.Cache.SetLastModified(fi.LastWriteTime)
+
+            Response.TransmitFile(fi.FullName)
+        Catch ex As Exception
+            context.Response.Write(ex.ToString())
+        End Try
 
     End Sub
 

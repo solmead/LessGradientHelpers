@@ -1,14 +1,14 @@
 ﻿<configuration>
   <system.web>
     <httpHandlers>
-      <add verb="GET" path="RGBAHandler" type="WebHandlers.RGBAHandler" />
-      <add verb="GET" path="SVGGradientHandler" type="WebHandlers.SVGGradientHandler" />
+      <add verb="GET" path="RGBAHandler.axd" type="WebHandlers.RGBAHandler" />
+      <add verb="GET" path="SVGGradientHandler.axd" type="WebHandlers.SVGGradientHandler" />
     </httpHandlers>
   </system.web>
   <system.webServer>
     <handlers>
-      <add name="RGBAHandler" path="RGBAHandler" verb="*" type="WebHandlers.RGBAHandler" resourceType="Unspecified" preCondition="integratedMode" />
-      <add name="SVGGradientHandler" path="SVGGradientHandler" verb="*" type="WebHandlers.SVGGradientHandler" resourceType="Unspecified" preCondition="integratedMode" />
+      <add name="RGBAHandler" path="RGBAHandler.axd" verb="GET" type="WebHandlers.RGBAHandler" resourceType="Unspecified" preCondition="" />
+      <add name="SVGGradientHandler" path="SVGGradientHandler.axd" verb="GET" type="WebHandlers.SVGGradientHandler" resourceType="Unspecified" preCondition="" />
     </handlers>
   </system.webServer>
 </configuration> 

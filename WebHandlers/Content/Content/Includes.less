@@ -114,7 +114,7 @@
 	@R: red(@color);
 	@G: green(@color);
 	@B: blue(@color);
-	background: formatstring("transparent url('/RGBAHandler.ashx?R={0}&G={1}&B={2}&A={3}') repeat",@R,@G,@B,@A*100);
+	background: formatstring("transparent url('RGBAHandler.axd?R={0}&G={1}&B={2}&A={3}') repeat",@R,@G,@B,@A*100);
 	background: rgba(@R,@G,@B,@A);
 }
 .background_alpha_color_alpha(@color: #000, @A:0)
@@ -122,13 +122,13 @@
 	@R: red(@color);
 	@G: green(@color);
 	@B: blue(@color);
-	background: formatstring("transparent url('/RGBAHandler.ashx?R={0}&G={1}&B={2}&A={3}') repeat",@R,@G,@B,@A*100);
+	background: formatstring("transparent url('RGBAHandler.axd?R={0}&G={1}&B={2}&A={3}') repeat",@R,@G,@B,@A*100);
 	background: rgba(@R,@G,@B,@A);
 }
 
 .background_alpha_RGB(@R:0, @G:0, @B:0, @A:0)
 {
-	background: formatstring("transparent url('/RGBAHandler.ashx?R={0}&G={1}&B={2}&A={3}') repeat",@R,@G,@B,@A*100);
+	background: formatstring("transparent url('RGBAHandler.axd?R={0}&G={1}&B={2}&A={3}') repeat",@R,@G,@B,@A*100);
 	background: rgba(@R,@G,@B,@A);
 }
 
@@ -140,7 +140,7 @@
 	@fromstripped: formatstring("{0}{1}{2}{3}", hex(alpha(@from)*255), hex(red(@from)), hex(green(@from)), hex(blue(@from)));
 	@tostripped: formatstring("{0}{1}{2}{3}", hex(alpha(@to)*255),hex(red(@to)), hex(green(@to)), hex(blue(@to)));
 	
-    background-image: formatstring("url('/RGBAHandler.ashx?from={0}&to={1}&Height={2}')", @fromstripped, @tostripped, @height);
+    background-image: formatstring("url('RGBAHandler.axd?from={0}&to={1}&Height={2}')", @fromstripped, @tostripped, @height);
 
 }
 .background_gradient2(@from:#000, @to:#EEE)
@@ -152,7 +152,7 @@
 	@fromNoAlpha: formatstring("#{0}{1}{2}", hex(red(@from)), hex(green(@from)), hex(blue(@from)));
 	
 	//background:  @fromNoAlpha; /* Old browsers */
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}')", @fromstripped, @tostripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}')", @fromstripped, @tostripped);
 	background-image: -moz-linear-gradient(top,  @from 0%, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@from), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(top,  @from 0%,@to 100%); /* Chrome10+,Safari5.1+ */
@@ -171,7 +171,7 @@
 	@midstripped: formatstring("{0}{1}{2}{3}", hex(alpha(@mid)*255),hex(red(@mid)), hex(green(@mid)), hex(blue(@mid)));
 	@midPercentstripped: formatstring("{0}", (@midPercent + 0));
 	
-    background-image: formatstring("url('/RGBAHandler.ashx?from={0}&to={1}&stops={2}-{3}&Height={4}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped, @height);
+    background-image: formatstring("url('RGBAHandler.axd?from={0}&to={1}&stops={2}-{3}&Height={4}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped, @height);
 
 }
 .background_gradient3(@from:#000, @midPercent:50%, @mid:#444, @to:#EEE) 
@@ -184,7 +184,7 @@
 	@fromNoAlpha: formatstring("#{0}{1}{2}", hex(red(@from)), hex(green(@from)), hex(blue(@from)));
 	
 	//background:  @fromNoAlpha; /* Old browsers */
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}&stop1Percent={2}&stop1Color={3}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}&stop1Percent={2}&stop1Color={3}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped);
 	background-image: -moz-linear-gradient(top,  @from 0%, @mid @midPercent, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@from), color-stop(@midPercent,@mid), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(top,  @from 0%,@mid @midPercent, @to 100%); /* Chrome10+,Safari5.1+ */
@@ -206,7 +206,7 @@
 	@midPercentstripped: formatstring("{0}", (@midPercent + 0));
 	@midPercent2stripped: formatstring("{0}", (@midPercent2 + 0));
 	
-    background-image: formatstring("url('/RGBAHandler.ashx?from={0}&to={1}&stops={2}-{3},{4}-{5}&Height={6}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped, @height);
+    background-image: formatstring("url('RGBAHandler.axd?from={0}&to={1}&stops={2}-{3},{4}-{5}&Height={6}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped, @height);
 
 }
 .background_gradient4(@from:#000, @midPercent:50%, @mid:#444, @midPercent2:51%, @mid2:#444, @to:#EEE) 
@@ -223,7 +223,7 @@
 	
 
 	//background:  @fromNoAlpha; /* Old browsers */
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}&stop1Percent={2}&stop1Color={3}&stop2Percent={4}&stop2Color={5}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}&stop1Percent={2}&stop1Color={3}&stop2Percent={4}&stop2Color={5}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped);
 	background-image: -moz-linear-gradient(top,  @from 0%, @mid @midPercent, @mid2 @midPercent2, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@from), color-stop(@midPercent,@mid), color-stop(@midPercent2,@mid2), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(top,  @from 0%,@mid @midPercent, @mid2 @midPercent2, @to 100%); /* Chrome10+,Safari5.1+ */
@@ -248,7 +248,7 @@
 	@midPercent3stripped: formatstring("{0}", (@midPercent3 + 0));
 	@midPercent4stripped: formatstring("{0}", (@midPercent4 + 0));
 	
-    background-image: formatstring("url('/RGBAHandler.ashx?from={0}&to={1}&stops={2}-{3},{4}-{5},{6}-{7},{8}-{9}&Height={10}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped,  @midPercent3stripped, @mid3stripped,  @midPercent4stripped, @mid4stripped, @height);
+    background-image: formatstring("url('RGBAHandler.axd?from={0}&to={1}&stops={2}-{3},{4}-{5},{6}-{7},{8}-{9}&Height={10}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped,  @midPercent3stripped, @mid3stripped,  @midPercent4stripped, @mid4stripped, @height);
 
 }
 .background_gradient6(@from:#000, @midPercent:50%, @mid:#444, @midPercent2:51%, @mid2:#444, @midPercent3:55%, @mid3:#444, @midPercent4:57%, @mid4:#444, @to:#EEE) 
@@ -270,7 +270,7 @@
 
 	//background:  @fromNoAlpha; /* Old browsers */
 	
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}&stops={2}-{3},{4}-{5},{6}-{7},{8}-{9}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped,  @midPercent3stripped, @mid3stripped,  @midPercent4stripped, @mid4stripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}&stops={2}-{3},{4}-{5},{6}-{7},{8}-{9}')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped,  @midPercent3stripped, @mid3stripped,  @midPercent4stripped, @mid4stripped);
 	background-image: -moz-linear-gradient(top,  @from 0%, @mid @midPercent, @mid2 @midPercent2, @mid3 @midPercent3, @mid4 @midPercent4, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@from), color-stop(@midPercent,@mid), color-stop(@midPercent2,@mid2), color-stop(@midPercent3,@mid3), color-stop(@midPercent4,@mid4), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(top,  @from 0%,@mid @midPercent, @mid2 @midPercent2, @mid3 @midPercent3, @mid4 @midPercent4, @to 100%); /* Chrome10+,Safari5.1+ */
@@ -292,7 +292,7 @@
 	@fromNoAlpha: formatstring("#{0}{1}{2}", hex(red(@from)), hex(green(@from)), hex(blue(@from)));
 	
 	//background:  @fromNoAlpha; /* Old browsers */
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}&direction=horizontal')", @fromstripped, @tostripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}&direction=horizontal')", @fromstripped, @tostripped);
 	background-image: -moz-linear-gradient(left,  @from 0%, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,@from), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(left,  @from 0%,@to 100%); /* Chrome10+,Safari5.1+ */
@@ -313,7 +313,7 @@
 	@fromNoAlpha: formatstring("#{0}{1}{2}", hex(red(@from)), hex(green(@from)), hex(blue(@from)));
 	
 	//background:  @fromNoAlpha; /* Old browsers */
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}&stop1Percent={2}&stop1Color={3}&direction=horizontal')", @fromstripped, @tostripped, @midPercentstripped, @midstripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}&stop1Percent={2}&stop1Color={3}&direction=horizontal')", @fromstripped, @tostripped, @midPercentstripped, @midstripped);
 	background-image: -moz-linear-gradient(left,  @from 0%, @mid @midPercent, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,@from), color-stop(@midPercent,@mid), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(left,  @from 0%,@mid @midPercent, @to 100%); /* Chrome10+,Safari5.1+ */
@@ -336,7 +336,7 @@
 	@fromNoAlpha: formatstring("#{0}{1}{2}", hex(red(@from)), hex(green(@from)), hex(blue(@from)));
 	
 	//background:  @fromNoAlpha; /* Old browsers */
-	background-image: formatstring("url('/SVGGradientHandler.ashx?from={0}&to={1}&stop1Percent={2}&stop1Color={3}&stop2Percent={4}&stop2Color={5}&direction=horizontal')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped);
+	background-image: formatstring("url('SVGGradientHandler.axd?from={0}&to={1}&stop1Percent={2}&stop1Color={3}&stop2Percent={4}&stop2Color={5}&direction=horizontal')", @fromstripped, @tostripped, @midPercentstripped, @midstripped,  @midPercent2stripped, @mid2stripped);
 	background-image: -moz-linear-gradient(left,  @from 0%, @mid @midPercent, @mid2 @midPercent2, @to 100%); /* FF3.6+ */
 	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,@from), color-stop(@midPercent,@mid), color-stop(@midPercent2,@mid2), color-stop(100%, @to)); /* Chrome,Safari4+ */
 	background-image: -webkit-linear-gradient(left,  @from 0%,@mid @midPercent, @mid2 @midPercent2, @to 100%); /* Chrome10+,Safari5.1+ */

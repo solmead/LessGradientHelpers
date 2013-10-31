@@ -14,3 +14,14 @@ C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug
 C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.dll
 C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.xml
 C:\Development\ISOC Projects\LIS\Sites\EntertainmentAccess\WebHandlers\obj\Debug\WebHandlers.pdb
+C:\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.Resources.resources
+C:\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.vbproj.GenerateResource.Cache
+C:\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.dll
+C:\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.xml
+C:\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.pdb
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.dll
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.pdb
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.xml
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebActivatorEx.dll
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\dotless.Core.dll
