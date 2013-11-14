@@ -18,7 +18,7 @@
   <files>
     <file src="Content\web.config.transform" target="Content" />
     <file src="Content\Content\includes.less" target="Content\Content" />
-    <file src="Content\App_Start\WebHandlerConfig.cs.pp" target="Content\App_Start" />
-    <file src="Content\App_Start\WebHandlerConfig.vb.pp" target="Content\App_Start" />
+    <file src="Content\App_Start\WebHandlersConfig.cs.pp" target="Content\App_Start" />
+    <file src="Content\App_Start\WebHandlersConfig.vb.pp" target="Content\App_Start" />
   </files>
 </package>

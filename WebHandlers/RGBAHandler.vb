@@ -24,7 +24,6 @@ Public Class RGBAHandler : Implements IHttpHandler
     End Function
 
     Private Function GetTransparencyImage(context As HttpContext) As FileInfo
-        Dim Response = context.Response
         Dim Request = context.Request
         Dim Server = context.Server
 
@@ -33,10 +32,8 @@ Public Class RGBAHandler : Implements IHttpHandler
         Dim G = Val(Request("G"))
         Dim A = Val(Request("A"))
         If A = 0 Then
-            A = 100
+            A = 100.0
         End If
-
-
         Dim Fname As String = R.ToString("000") & "_" & G.ToString("000") & "_" & B.ToString("000") & "_" & A.ToString("000") & ".png"
         Dim Fi = New System.IO.FileInfo(Server.MapPath("/Uploads/BGs/" & Fname))
         If Not Fi.Exists Then
@@ -52,7 +49,6 @@ Public Class RGBAHandler : Implements IHttpHandler
         Return Fi
     End Function
     Private Function GetGradientImage(context As HttpContext) As FileInfo
-        Dim Response = context.Response
         Dim Request = context.Request
         Dim Server = context.Server
         Dim fromColor As String = Request("from")
