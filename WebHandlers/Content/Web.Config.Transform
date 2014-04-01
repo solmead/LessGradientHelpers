@@ -1,4 +1,9 @@
 ﻿<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="WebHandlers.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
   <system.web>
     <httpHandlers>
       <add verb="GET" path="RGBAHandler.axd" type="WebHandlers.RGBAHandler" />
@@ -11,4 +16,11 @@
       <add name="SVGGradientHandler" path="SVGGradientHandler.axd" verb="GET" type="WebHandlers.SVGGradientHandler" resourceType="Unspecified" preCondition="" />
     </handlers>
   </system.webServer>
+  <applicationSettings>
+    <WebHandlers.My.MySettings>
+      <setting name="TempDirectory" serializeAs="String">
+        <value>~/Uploads/BGs</value>
+      </setting>
+    </WebHandlers.My.MySettings>
+  </applicationSettings>
 </configuration> 

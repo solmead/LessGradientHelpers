@@ -25,3 +25,4 @@ C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.xml
 C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebActivatorEx.dll
 C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\dotless.Core.dll
+C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.dll.config
