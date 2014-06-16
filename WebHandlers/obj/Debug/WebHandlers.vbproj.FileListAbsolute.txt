@@ -26,3 +26,16 @@ C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\Microsoft.Web.Infrast
 C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebActivatorEx.dll
 C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\dotless.Core.dll
 C:\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.dll.config
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.dll.config
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.dll
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.pdb
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebHandlers.xml
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\dotless.Core.dll
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\bin\Debug\WebActivatorEx.dll
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.vbprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.Resources.resources
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.vbproj.GenerateResource.Cache
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.dll
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.xml
+\\psf\Home\Documents\Development\Libraries\CSSHandlers\WebHandlers\obj\Debug\WebHandlers.pdb
